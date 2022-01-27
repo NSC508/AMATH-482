@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.18)  18 JAN 2022 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.18)  26 JAN 2022 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -370,24 +370,16 @@ LaTeX Info: Redefining \nameref on input line 16.
 
 Class amsart Warning: Abstract should precede \maketitle in AMS document classes; reported on input line 20.
 
-
-LaTeX Warning: Citation `example-article-citation' on page 1 undefined on input line 32.
-
-
-LaTeX Warning: Citation `example-article-citation' on page 1 undefined on input line 33.
-
-
-LaTeX Warning: Citation `example-book-citation' on page 1 undefined on input line 33.
-
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `fig:meaningful-label' on page 2 undefined on input line 128.
+LaTeX Warning: Reference `fig:meaningful-label' on page 2 undefined on input line 188.
 
 
-LaTeX Warning: Reference `subfig:first' on page 2 undefined on input line 129.
+LaTeX Warning: Reference `subfig:first' on page 2 undefined on input line 189.
 
+[2]
 No file HW_main.bbl.
-[2] (/home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_main.aux)
+[3] (/home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -395,18 +387,18 @@ Package rerunfilecheck Info: File `HW_main.out' has not changed.
 (rerunfilecheck)             Checksum: D88767DC6E2BDCFE07E738A3DC10E985;373.
  ) 
 Here is how much of TeX's memory you used:
- 8555 strings out of 479304
- 131729 string characters out of 5869779
- 441361 words of memory out of 5000000
- 25441 multiletter control sequences out of 15000+600000
+ 8554 strings out of 479304
+ 131702 string characters out of 5869779
+ 442313 words of memory out of 5000000
+ 25440 multiletter control sequences out of 15000+600000
  411999 words of font info for 60 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 82i,7n,88p,399b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_main.pdf" (2 pages, 138280 bytes).
+ 82i,7n,88p,399b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "/home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_main.pdf" (3 pages, 171797 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

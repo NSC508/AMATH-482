@@ -24,40 +24,100 @@
 
 
 \section{Introduction and Overview}\label{sec:Introduction}
+Imagine we are given the following problem:
+There is a submarine traveling thorugh Puget Sound. We've been tasked with finding the submarine
+and tracking it over a 24 hour period. We've been given a 64 x 64 x 64 grid of acoustic data points at 
+30 minute intervals, but the data is noisy. The submarine is also moving, so we need to determine 
+its path if we want to find it. 
 
-Here you will give a brief introduction to the problem you solved. Including 
-some discussion of relevant literature and background. 
+Since we're dealing with acoustic frequencies, we should immediately be thinking of Fourier Transforms.
+These will be key in order for us to find the path of the submarine. 
 
-Make sure you use the correct citation commands (i.e., \texttt{$\backslash$cite}) to keys 
-from your bib file like this \cite{example-article-citation}. If you want 
-to cite more than one reference simply use \cite{example-article-citation, example-book-citation}. You can grab latex citations 
-from \href{https://scholar.google.com}{Google Scholar}. Just keep in mind that they often 
-need to be cleaned up.
+% Here you will give a brief introduction to the problem you solved. Including 
+% some discussion of relevant literature and background. 
+
+% Make sure you use the correct citation commands (i.e., \texttt{$\backslash$cite}) to keys 
+% from your bib file like this \cite{example-article-citation}. If you want 
+% to cite more than one reference simply use \cite{example-article-citation, example-book-citation}. You can grab latex citations 
+% from \href{https://scholar.google.com}{Google Scholar}. Just keep in mind that they often 
+% need to be cleaned up.
 
 \section{Theoretical Background}\label{sec:theory}
+We know the data is noisy. As such, we can use an interesting property of the Fourier Transform in order
+to help get rid of the noise. Let the function be represented by the following: 
 
-You dedicate this section to the theoretical background of the methods and frameworks 
-that you used in your homework. This is not meant to reproduce material from the lectures
- or references you used but rather to demonstrate your understanding of the 
- mathematical foundations of the methods and algorithms. You can create equations like this 
- \begin{equation*}
-     f(x) = \int_A \sin( \pi x) dx.
- \end{equation*}
- You do not need to label your equations unless they are referenced in the text. In that 
- case simply use 
- \begin{equation}\label{eq:meaningful-label}
-      - \frac{\partial^2 u}{\partial x^2} = \sin ( \pi x).
- \end{equation}
-Also look up the \texttt{align} or \texttt{aligned} environments if you want multi-line 
-equations. You can then reference your equations in text using the $\backslash$\texttt{eqref}
-command as such \eqref{eq:meaningful-label}. 
+\[f(x) = g(x) + \xi\]
+
+Where $\xi$ is the noise and $f(x)$ is the submarine data. The clean data should then be represented
+by $g(x)$, so the question is how do we get rid of the noise. If we assume the noise is random 
+in distribution with mean 0, then taking the Fourier Transform of the random variable will still be some random variable.
+As such, we can write this as 
+
+\[\hat{f(x)} = \hat{g(x)} + \xi\]
+
+We have a distribution over time (one point at every 30 mintues for 24 hours). If we imagine that there are
+$n$ number of such points, then if we were to take the average of this fourier transform over time, it
+would become 
+
+\[\frac{1}{n}\sum_{n=0}^{n-1}\hat{f(x)} = \frac{1}{n}\sum_{n=0}^{n-1}\hat{g(x)} + \frac{1}{n}\sum_{n=0}^{n-1}\xi\]
+
+However, since $\xi$ is randomly distributed with mean 0, the noise should approach 0 as well. So,
+this should simplify to 
+
+\[\frac{1}{n}\sum_{n=0}^{n-1}\hat{f(x)} = \frac{1}{n}\sum_{n=0}^{n-1}\hat{g(x)}\]
+
+Effectively meaning that we have dealt with the noise.
+Once we have gotten rid of the noise, we should be able to scan through the fourier transform 
+and find the highest frequency. Since there should be no other frequencies in the data, we can 
+use this frequency to find the central frequency (and it's location). 
+
+When we create a filter to denoise the data when finding the path, we can extend the Gaussian filter
+to three dimensions. In two dimensions, the filter is 
+
+\[G(x, y, \sigma) = e^{-\frac{x^2 + y^2}{2\sigma^2}}\]
+
+Where $\sigma$ is chosen by us. We can extend this definition to three dimensions by just adding another
+dimension $z$. In this case, the Gaussian Filter would become 
+
+\[G(x, y, z, \sigma) = e^{-\frac{x^2 + y^2 + z^2}{2\sigma^2}}\]
+
+We will use this filter to attempt to de-noise along the path that the submarine takes. We can also center 
+this around the location of the max frequency in order to better reduce noise around the sub. Let $(a, b, c)$
+be the x, y, and z coordinates of the max frequency. Our Gaussian filter would then look like 
+
+\[G(x, y, z, \sigma) = e^{-\frac{(x - a)^2 + (y - b)^2 + (z - c)^2}{2\sigma^2}}\]
+
+Also, the data would be given to us from range -32 to 32, but we want to start at 0. So, we will add 
+32 to each dimension as well to get the final Gaussian filter as 
+
+\[G(x, y, z, \sigma) = e^{-\frac{(x - a + 32)^2 + (y - b + 32)^2 + (z - c + 32)^2}{2\sigma^2}}\]
+
+% You dedicate this section to the theoretical background of the methods and frameworks 
+% that you used in your homework. This is not meant to reproduce material from the lectures
+%  or references you used but rather to demonstrate your understanding of the 
+%  mathematical foundations of the methods and algorithms. You can create equations like this 
+%  \begin{equation*}
+%      f(x) = \int_A \sin( \pi x) dx.
+%  \end{equation*}
+%  You do not need to label your equations unless they are referenced in the text. In that 
+%  case simply use 
+%  \begin{equation}\label{eq:meaningful-label}
+%       - \frac{\partial^2 u}{\partial x^2} = \sin ( \pi x).
+%  \end{equation}
+% Also look up the \texttt{align} or \texttt{aligned} environments if you want multi-line 
+% equations. You can then reference your equations in text using the $\backslash$\texttt{eqref}
+% command as such \eqref{eq:meaningful-label}. 
 
 \section{Algorithm Implementation and Development}\label{sec:algorithms}
-Here you discuss the algorithms and software packages that you used. Not much to it. 
-Just make sure you cite the packages properly and avoid including code. 
-You are welcome to use \LaTeX packages that are specifically designed to show 
-algorithms such \href{https://www.overleaf.com/learn/latex/Algorithms}{as this}, but it is 
-not always worth the effort and real estate. 
+
+For this assignment, I used Python. I used NumPy to do all mathematical operations and the Fourier Transforms. 
+I used Matplotlib to plot the data and the path of the submarine, as well as any other plots. 
+
+% Here you discuss the algorithms and software packages that you used. Not much to it. 
+% Just make sure you cite the packages properly and avoid including code. 
+% You are welcome to use \LaTeX packages that are specifically designed to show 
+% algorithms such \href{https://www.overleaf.com/learn/latex/Algorithms}{as this}, but it is 
+% not always worth the effort and real estate. 
 
 
 \section{Computational Results}\label{sec:results}
