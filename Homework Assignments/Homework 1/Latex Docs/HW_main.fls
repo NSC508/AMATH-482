@@ -140,6 +140,17 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -623,7 +634,6 @@ OUTPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_ma
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -638,11 +648,24 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/./images/submarine_path_xy.png
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/./images/submarine_path_xy.png
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/./images/submarine_path_xy.png
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/./images/submarine_path_xy.png
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/./images/submarine_path_xy.png
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/./images/submarine_path_3d.png
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/./images/submarine_path_3d.png
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/./images/submarine_path_3d.png
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/./images/submarine_path_3d.png
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/./images/submarine_path_3d.png
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_main.bbl
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_main.bbl
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_main.bbl
+INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_main.bbl
 INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_main.aux
 INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_main.out
 INPUT /home/sathvikc/AMATH-482/Homework Assignments/Homework 1/Latex Docs/HW_main.out
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
@@ -652,7 +675,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
