@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.10)  10 FEB 2022 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.10)  11 FEB 2022 15:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -378,23 +378,39 @@ LaTeX Info: Redefining \nameref on input line 16.
 
 Class amsart Warning: Abstract should precede \maketitle in AMS document classes; reported on input line 20.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.aux)
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<./PCA Singular Values.pdf, id=46, 433.62pt x 289.08pt>
+File: ./PCA Singular Values.pdf Graphic file (type pdf)
+<use ./PCA Singular Values.pdf>
+Package pdftex.def Info: ./PCA Singular Values.pdf  used on input line 119.
+(pdftex.def)             Requested size: 187.89914pt x 125.26797pt.
+<./PCA Cumulative Fraction of Total Variance.pdf, id=47, 433.62pt x 289.08pt>
+File: ./PCA Cumulative Fraction of Total Variance.pdf Graphic file (type pdf)
+<use ./PCA Cumulative Fraction of Total Variance.pdf>
+Package pdftex.def Info: ./PCA Cumulative Fraction of Total Variance.pdf  used on input line 130.
+(pdftex.def)             Requested size: 187.89914pt x 125.26797pt.
+<./Reconstructed 16 Training Features.pdf, id=48, 578.16pt x 578.16pt>
+File: ./Reconstructed 16 Training Features.pdf Graphic file (type pdf)
+<use ./Reconstructed 16 Training Features.pdf>
+Package pdftex.def Info: ./Reconstructed 16 Training Features.pdf  used on input line 142.
+(pdftex.def)             Requested size: 187.89914pt x 187.89977pt.
+ [2 </home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Singular Values.pdf>] [3 </home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Cumulative Fraction of Total Variance.pdf> </home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./Reconstructed 16 Training Features.pdf>] (/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.bbl) [4] (/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.aux)
 Package rerunfilecheck Info: File `HW2.out' has not changed.
-(rerunfilecheck)             Checksum: 8915328EECB465AB1B9674A7C8F5641B;373.
+(rerunfilecheck)             Checksum: 038C2D7E253F17BB720D1C9D5AC37C11;419.
  ) 
 Here is how much of TeX's memory you used:
- 8590 strings out of 479304
- 132272 string characters out of 5869779
- 441634 words of memory out of 5000000
- 25476 multiletter control sequences out of 15000+600000
+ 8648 strings out of 479304
+ 133869 string characters out of 5869779
+ 446376 words of memory out of 5000000
+ 25514 multiletter control sequences out of 15000+600000
  411691 words of font info for 59 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 82i,5n,88p,407b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,8n,88p,407b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.pdf" (2 pages, 124403 bytes).
+Output written on "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.pdf" (4 pages, 195899 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

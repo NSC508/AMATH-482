@@ -646,8 +646,27 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Singular Values.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Singular Values.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Singular Values.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Singular Values.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Singular Values.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Cumulative Fraction of Total Variance.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Cumulative Fraction of Total Variance.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Cumulative Fraction of Total Variance.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Cumulative Fraction of Total Variance.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./PCA Cumulative Fraction of Total Variance.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./Reconstructed 16 Training Features.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./Reconstructed 16 Training Features.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./Reconstructed 16 Training Features.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./Reconstructed 16 Training Features.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/./Reconstructed 16 Training Features.pdf
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.bbl
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.bbl
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.bbl
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.bbl
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.aux
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.out
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.out

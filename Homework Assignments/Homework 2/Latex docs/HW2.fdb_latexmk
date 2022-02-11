@@ -1,8 +1,15 @@
 # Fdb version 3
-["pdflatex"] 1644565246 "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.tex" "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.pdf" "HW2" 1644565247
+["bibtex HW2"] 1644620590 "HW2.aux" "HW2.bbl" "HW2" 1644620600
+  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW_references.bib" 1644620434 2741 19284a31c174c4dc24afed0876891710 ""
+  "/usr/share/texlive/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
+  "HW2.aux" 1644620600 4226 5056b570ec6daa76ac95375514da3caf "pdflatex"
+  (generated)
+  "HW2.blg"
+  "HW2.bbl"
+["pdflatex"] 1644620599 "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.tex" "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.pdf" "HW2" 1644620600
   "/etc/texmf/web2c/texmf.cnf" 1644538221 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.aux" 1644565247 1976 20f4874db6b5c5d394f7d869e6740b3b ""
-  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.tex" 1644565246 11212 1ae02d0e74c952bd1a5d013f20d27589 ""
+  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.aux" 1644620600 4226 5056b570ec6daa76ac95375514da3caf ""
+  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.tex" 1644620599 16639 4adced9fbd929fe139036be9265143f1 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -102,13 +109,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1644538238 5160710 ecf427ae8fa19139d8691f526e47bb9b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1644538263 2569623 2ad934774020c84894e8c9bb6f18a5ab ""
-  "HW2.aux" 1644565247 1976 20f4874db6b5c5d394f7d869e6740b3b "pdflatex"
-  "HW2.out" 1644565247 373 8915328eecb465ab1b9674a7c8f5641b "pdflatex"
-  "HW2.tex" 1644565246 11212 1ae02d0e74c952bd1a5d013f20d27589 ""
+  "HW2.aux" 1644620600 4226 5056b570ec6daa76ac95375514da3caf "pdflatex"
+  "HW2.bbl" 1644620590 1538 547babeaf5083d5f8cea1f9c2b61d59f "bibtex HW2"
+  "HW2.out" 1644620600 419 038c2d7e253f17bb720d1c9d5ac37c11 "pdflatex"
+  "HW2.tex" 1644620599 16639 4adced9fbd929fe139036be9265143f1 ""
+  "PCA Cumulative Fraction of Total Variance.pdf" 1644615378 12200 ab9c0b22f6b3f45e1f8ef97df379c02f ""
+  "PCA Singular Values.pdf" 1644615376 12705 98935cdb6ca1034812f67d4e520c7014 ""
+  "Reconstructed 16 Training Features.pdf" 1644615693 28936 88786c8e3dddec3b78b36cc91206931b ""
   (generated)
-  "HW2.out"
   "HW2.log"
-  "HW2.aux"
-  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.log"
   "HW2.pdf"
   "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.pdf"
+  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 2/Latex docs/HW2.log"
+  "HW2.aux"
+  "HW2.out"
