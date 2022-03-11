@@ -704,11 +704,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/sigma_accuracy.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/sigma_accuracy.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/sigma_accuracy.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/sigma_accuracy.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/sigma_accuracy.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
@@ -720,24 +715,32 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyFewPoints.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyFewPoints.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyFewPoints.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyFewPoints.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyFewPoints.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyLotPoints.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyLotPoints.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyLotPoints.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyLotPoints.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyLotPoints.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.aux
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.out
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.out
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb

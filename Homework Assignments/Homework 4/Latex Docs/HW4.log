@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.10)  10 MAR 2022 23:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.10)  11 MAR 2022 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -344,27 +344,27 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 ) (/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.aux)
 \openout1 = `HW4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -424,7 +424,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -434,53 +434,57 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count293
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
  (/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.out) (/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.out)
 \@outlinefile=\write3
 \openout3 = `HW4.out'.
 
 
 
-Class amsart Warning: Abstract should precede \maketitle in AMS document classes; reported on input line 22.
+Class amsart Warning: Abstract should precede \maketitle in AMS document classes; reported on input line 23.
 
-<sigma_accuracy.png, id=28, 433.62pt x 289.08pt>
-File: sigma_accuracy.png Graphic file (type png)
-<use sigma_accuracy.png>
-Package pdftex.def Info: sigma_accuracy.png  used on input line 72.
+</home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png, id=28, 433.62pt x 289.08pt>
+File: /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png Graphic file (type png)
+<use /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png>
+Package pdftex.def Info: /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png  used on input line 102.
 (pdftex.def)             Requested size: 375.80544pt x 250.5492pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/sigma_accuracy.png>]
-<M_J_accuracyFewPoints.png, id=44, 433.62pt x 289.08pt>
-File: M_J_accuracyFewPoints.png Graphic file (type png)
-<use M_J_accuracyFewPoints.png>
-Package pdftex.def Info: M_J_accuracyFewPoints.png  used on input line 99.
-(pdftex.def)             Requested size: 375.80544pt x 250.5492pt.
-</home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyLotPoints.png, id=45, 433.62pt x 289.08pt>
-File: /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyLotPoints.png Graphic file (type png)
-<use /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyLotPoints.png>
-Package pdftex.def Info: /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyLotPoints.png  used on input line 114.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+</home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png, id=45, 433.62pt x 289.08pt>
+File: /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png Graphic file (type png)
+<use /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png>
+Package pdftex.def Info: /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png  used on input line 129.
 (pdftex.def)             Requested size: 375.80544pt x 250.5492pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 </home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyFewPoints.png>] [3 </home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyLotPoints.png>] (/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.aux)
+ [2 </home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png>]
+</home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png, id=52, 433.62pt x 289.08pt>
+File: /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png Graphic file (type png)
+<use /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png>
+Package pdftex.def Info: /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png  used on input line 144.
+(pdftex.def)             Requested size: 375.80544pt x 250.5492pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 </home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png>] [4 </home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png>] (/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.aux)
 Package rerunfilecheck Info: File `HW4.out' has not changed.
 (rerunfilecheck)             Checksum: 2C41A96317583154571C64C2E44D263B;373.
  ) 
 Here is how much of TeX's memory you used:
- 9460 strings out of 479304
- 144163 string characters out of 5869779
+ 9462 strings out of 479304
+ 144875 string characters out of 5869779
  460726 words of memory out of 5000000
  26315 multiletter control sequences out of 15000+600000
  411523 words of font info for 58 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 82i,14n,88p,426b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.pdf" (3 pages, 145242 bytes).
+ 82i,14n,88p,426b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.pdf" (4 pages, 172699 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
  64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -10,7 +10,8 @@
 \usepackage{diagbox}
 
 
-\title{AMATH 482/582: Homework 2}
+
+\title{AMATH 482/582: Homework 4}
 \author{Sathvik Chinta} % first and last name
 
 \date{\today} % you can also just type the date instead of "\today"
@@ -39,6 +40,35 @@
 
 \section{Theoretical Background}\label{sec:theory}
 
+We will use spectral clustering in the beginning to see 
+if we can get reliable results. Spectral clustering is a
+method for deeply rooted in graph theory. In our case, each of the 
+data points would get treated as a node in our graph. In order to perform spectral clustering, 
+we will use a Laplacian matrix on our set of points. A laplacian matrix can be defined as 
+
+\begin{equation*}
+    L_{i,j} = 
+    \begin{cases}
+      \text{deg}(v_i) \text{ if } i = j\\      
+      -1 \text{ if } i \neq j \text{ and } v_i \text{ is adjacent to } v_j\\
+      0 \text{ otherwise }
+    \end{cases}
+\end{equation*}
+
+Equivalently, we can define two matrices: the degree matrix (D) and the adjacency matrix (A) and define the laplacian 
+matrix with the equation:
+
+\[L = D - A\]
+
+We can then check the closely connected nodes which, in theory, should be 
+closely related to each other as well. The components of the eigenvectors that correspond 
+to the smallest eigenvalues of our constructed laplacian matrix, then, can be used 
+to find clusters in our graph. 
+
+The second eigenvalue of the laplacian matrix is called the Fiedler value. The magnitude of this 
+reflects how connected the graph is as a whole. We can select the Fiedler vector (the second eigenvector)
+and use the components whose value is positive to signify us predicting the +1 case (either democrat or republican)
+and the value who is negative to signify us predicting the -1 case (the other party).
 % You dedicate this section to the theoretical background of the methods and frameworks 
 % that you used in your homework. This is not meant to reproduce material from the lectures
 %  or references you used but rather to demonstrate your understanding of the 
@@ -69,14 +99,14 @@
 Plotting the sigma values (1000 values between 0 and 4) against accuracy for spectral clustering yields the following plot: 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{sigma_accuracy.png}
+    \includegraphics[width=0.8\textwidth]{/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png}
     \caption{Plot of sigma values against accuracy for spectral clustering}
     \label{fig:sigma_accuracy}
 \end{figure}
 
-We can see that the accuracy of the spectral clustering varies wildly according to small variations in 
-sigma. After sigma = approximately 0.6, the accuracy seems to oscillate between values $>$ 0.8 and values
-$<$ 0.2. The maximum accuracy occurs when $\sigma = 1.\overline{053}$. The accuracy at this point is 
+We can see that the accuracy of the spectral clustering increases drastically after about $\sigma = 0.75$. 
+Until that point, the accuracy seems to fall drastically at the smaller sigma values, then increase as well. 
+After $\sigma = 0.75$, the accuracy seems to stabilize in the high 0.8's. The maximum accuracy occurs when $\sigma = 1.\overline{053}$. The accuracy at this point is 
 0.887, which indicates that even though our spectral clustering seems to be unstable, we are still getting 
 a good accuracy. 
 
@@ -96,7 +126,7 @@ values of M and J.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{M_J_accuracyFewPoints.png}
+    \includegraphics[width=0.8\textwidth]{/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png}
     \caption{Plot of M and J values against accuracy for semi-supervised learning}
     \label{fig:M_J_accuracyFew}
 \end{figure}
@@ -111,7 +141,7 @@ this case
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/M_J_accuracyLotPoints.png}
+    \includegraphics[width=0.8\textwidth]{/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png}
     \caption{Plot of M and J values against accuracy for semi-supervised learning for a wide range of points}
     \label{fig:M_J_accuracy}
 \end{figure}
