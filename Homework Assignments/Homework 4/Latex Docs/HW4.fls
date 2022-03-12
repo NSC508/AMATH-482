@@ -715,12 +715,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
-INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png
@@ -731,6 +731,10 @@ INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_a
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.bbl
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.bbl
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.bbl
+INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.bbl
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.aux
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.out
 INPUT /home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.out

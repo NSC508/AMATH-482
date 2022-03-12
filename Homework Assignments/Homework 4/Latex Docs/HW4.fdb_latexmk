@@ -1,8 +1,15 @@
 # Fdb version 3
-["pdflatex"] 1647041581 "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.tex" "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.pdf" "HW4" 1647041582
+["bibtex HW4"] 1647048817 "HW4.aux" "HW4.bbl" "HW4" 1647048818
+  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW_references.bib" 1647048665 2930 037aa98f6f7def8a3997df0d52a2dcb7 ""
+  "/usr/share/texlive/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
+  "HW4.aux" 1647048818 3579 0951ecede54f0ecae8e69118d01e8f97 "pdflatex"
+  (generated)
+  "HW4.blg"
+  "HW4.bbl"
+["pdflatex"] 1647048817 "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.tex" "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.pdf" "HW4" 1647048818
   "/etc/texmf/web2c/texmf.cnf" 1644538221 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.aux" 1647041582 3049 f8859dc507343c5a45abd2d27ea8e455 ""
-  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.tex" 1647041581 11729 e2c8853f3f5da99779928ccb5ce1e0bb ""
+  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.aux" 1647048818 3579 0951ecede54f0ecae8e69118d01e8f97 ""
+  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.tex" 1647048816 15608 44e56bce8839fc333023fc5183f341fe ""
   "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyFewPoints.png" 1647023248 28540 41bf3805e669be022a22cd7f183b710d ""
   "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/M_J_accuracyLotPoints.png" 1647023247 39296 5b1daff34a704adac61b3aa067bb0a2f ""
   "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/sigma_accuracy.png" 1647023247 9941 4bdedcee514a5a06626cfc46f5984ed7 ""
@@ -112,13 +119,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1644538238 5160710 ecf427ae8fa19139d8691f526e47bb9b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1644538263 2569623 2ad934774020c84894e8c9bb6f18a5ab ""
-  "HW4.aux" 1647041582 3049 f8859dc507343c5a45abd2d27ea8e455 "pdflatex"
-  "HW4.out" 1647041582 373 2c41a96317583154571c64c2e44d263b "pdflatex"
-  "HW4.tex" 1647041581 11729 e2c8853f3f5da99779928ccb5ce1e0bb ""
+  "HW4.aux" 1647048818 3579 0951ecede54f0ecae8e69118d01e8f97 "pdflatex"
+  "HW4.bbl" 1647048817 1681 6844644c01573a6e13da06301bf6040a "bibtex HW4"
+  "HW4.out" 1647048818 419 9ceaf1a2b94dce254fa3de9d04026d99 "pdflatex"
+  "HW4.tex" 1647048816 15608 44e56bce8839fc333023fc5183f341fe ""
   (generated)
-  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.pdf"
-  "HW4.pdf"
-  "HW4.aux"
-  "HW4.out"
   "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.log"
+  "HW4.aux"
+  "HW4.pdf"
   "HW4.log"
+  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 4/Latex Docs/HW4.pdf"
+  "HW4.out"

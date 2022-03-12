@@ -8,6 +8,7 @@
 \usepackage{enumerate, subcaption, graphicx, hyperref}
 \usepackage{xcolor}
 \usepackage{diagbox}
+\raggedbottom
 
 
 
@@ -21,14 +22,18 @@
 \maketitle 
 
 \begin{abstract}
-     
+    Using clustering methods and semi-supervised learning on voting records, we are able to predict the party 
+    of a politician to a very high degree of accuracy! 
     % Your report should contain a brief, 100 word abstract describing what is contained in 
     % the document and what you did. {\bf Don't forget 6 pages max}.
 \end{abstract}
 
 
 \section{Introduction and Overview}\label{sec:Introduction}
-
+Let's see if we can predict the party of a politician based on their
+voting records! This is a very exciting task that has real world impications. We will use 
+spectral clustering and semi-supervised learning on the 1984 house voting records data to see 
+how accurately we can predict the party of a politician.    
 % Here you will give a brief introduction to the problem you solved. Including 
 % some discussion of relevant literature and background. 
 
@@ -63,12 +68,30 @@ matrix with the equation:
 We can then check the closely connected nodes which, in theory, should be 
 closely related to each other as well. The components of the eigenvectors that correspond 
 to the smallest eigenvalues of our constructed laplacian matrix, then, can be used 
-to find clusters in our graph. 
+to find clusters in our graph. The laplacian matrix will have different values depending 
+on which weight function we choose, as you can imagine. We wil use the following weight function: 
+
+\[\eta(t) = \text{exp}(-\frac{t^2}{2\sigma^2})\]
 
 The second eigenvalue of the laplacian matrix is called the Fiedler value. The magnitude of this 
 reflects how connected the graph is as a whole. We can select the Fiedler vector (the second eigenvector)
 and use the components whose value is positive to signify us predicting the +1 case (either democrat or republican)
-and the value who is negative to signify us predicting the -1 case (the other party).
+and the value who is negative to signify us predicting the -1 case (the other party). If we get an accuracy below 50\%, 
+this means that our Fiedler vector does not agree with our labelling of the data (ie. the Fiedler vector represents
+negative as Republican but we encoded the data as Democrat). In this case, we just flip the accuracy of the spectral 
+clustering method (since we are basically in a binary classification problem). Anywhere we would have predicted 
+one party, we would now predict the other party. We will search through a range of differnet $\sigma$ values 
+in order to find the one that gives us the most accurate classification.
+
+We will also attempt to use linear regression using the eigenvectors of our optimal laplacian matrix
+(the one associated with the sigma value that results in the most accurate classification). Upon constructing this 
+matrix, we will expose the linear regression function to diffrent sub-matrices of our overall matrix. We will supervise 
+how the accuracy of our linear regression function changes with the size of sub-matrices we use. We will take the sing 
+of the resulting value as well, and use that to predict the party. Then, we can 
+find the optimal number of rows and columns to use in our linear regression matrix.
+
+This is a semi-supervised learning approach. This is a hybrid approach between 
+supervised learning and clustering methods (like we used earlier). 
 % You dedicate this section to the theoretical background of the methods and frameworks 
 % that you used in your homework. This is not meant to reproduce material from the lectures
 %  or references you used but rather to demonstrate your understanding of the 
@@ -86,7 +109,17 @@ and the value who is negative to signify us predicting the -1 case (the other pa
 % command as such \eqref{eq:meaningful-label}. 
 
 \section{Algorithm Implementation and Development}\label{sec:algorithms}
+I used python along with numpy, matplotlib, and sklearn for this project. I read in the data 
+using np.genfromtxt() and split the data into X (matrix of votes) and Y (party). I encoded the Y 
+values with 1 if democrat and -1 if republican (and 0 if unknown). 
+I then used the sklearn package to calculate the distance matrix (passing in X twice and p = 2 as my parameters). 
+I used numpy to calculate the laplacian matrix, and eigenvalues/eigenvectors. Using the sign of the Feidler 
+vector, I then predicted the party of each data point. 
 
+For the linear regression, I used the sklearn linear model package. Specifically, I used 
+Ridge Regression with a very small alpha (which is mathematically similar to linear regression).
+Then, I took the coefficeints resulting after fitting my sub-matrix, and used the sign of the
+coefficients to predict the party of each data point.
 
 % Here you discuss the algorithms and software packages that you used. Not much to it. 
 % Just make sure you cite the packages properly and avoid including code. 
@@ -224,12 +257,20 @@ methodology does seem to be much more stable (no more rapid oscillation between 
 % Both Python and MATLAB can output figures in PDF or PNG.
 
 \section{Summary and Conclusions}\label{sec:conclusions}
-
+We can see that both methods performed very well. The spectral clustering algorithm ended 
+up with an accuracy north of 88\%. Very accurate! The semi-supervised learning method 
+performed even better, with an accuracy of above 93\%! This shows that we are able to 
+succesfully predict the party of politicians based on their voting records. 
 % Wrap up your report with a brief summary of what you did and what you discovered. 
 % Finish with some conclusions and possibly future directions if any. 
 
 \section*{Acknowledgements}
+I am thankful to Professor Hosseini for introducing us to the concept of graph laplacians, spectral clustering, and different
+methods of semi-supervised learning. 
 
+I am very thankful to my peers taking the class alongside me, they have helped me understand the material as well
+as provide a reference to compare my results against. I interacted with them both through Canvas discussion boards
+as well as Discord chat. 
 % Make sure you you clearly state any help you received including collaborations 
 % with your peers. Help from TAs or other mentors, professors, etc that helped you 
 % with your assignment. Here's a formal example: 
@@ -240,4 +281,13 @@ methodology does seem to be much more stable (no more rapid oscillation between 
 % implementation of spectral clustering in Python.
 
  % make sure this matches the .bib file for your corresponding document. You also have to maintain your references in the .bib file 
+\bibliographystyle{abbrv}
+\bibliography{HW_References}
+\cite{Hunter:2007}
+\cite{harris2020array}
+\cite{hosseini21_2022}
+\cite{hosseini22_2022}
+\cite{hosseini19_2022}
+\cite{hosseini18_2022}
+\cite{scikit-learn}
 \end{document}
