@@ -1,18 +1,18 @@
 # Fdb version 3
-["bibtex HW5"] 1647650039 "HW5.aux" "HW5.bbl" "HW5" 1647650040
+["bibtex HW5"] 1647650039 "HW5.aux" "HW5.bbl" "HW5" 1647651114
   "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW_references.bib" 1647650030 3223 868be8531be5f22482aeb521bc068797 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/abbrv.bst" 1292289607 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "HW5.aux" 1647650040 3566 086d7af06036915700713bc35c948636 "pdflatex"
+  "HW5.aux" 1647651114 3566 086d7af06036915700713bc35c948636 "pdflatex"
   (generated)
   "HW5.bbl"
   "HW5.blg"
-["pdflatex"] 1647650039 "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW5.tex" "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW5.pdf" "HW5" 1647650040
+["pdflatex"] 1647651113 "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW5.tex" "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW5.pdf" "HW5" 1647651114
   "/etc/texmf/web2c/texmf.cnf" 1644538221 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/DCT_F_coefficients.png" 1647646104 12176 9000858debc75e2fc2e77f84160d9264 ""
   "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/DCT_F_coefficients_cutoff.png" 1647646105 31994 45bf305ab2f4e48945a30350283d9ac4 ""
   "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/F_recovery.png" 1647646530 62902 64a5917d38d202c1eeebc0bf4f840ad3 ""
-  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW5.aux" 1647650040 3566 086d7af06036915700713bc35c948636 ""
-  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW5.tex" 1647650037 14021 fe0aa25f3a522801bffd206515374cf8 ""
+  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW5.aux" 1647651114 3566 086d7af06036915700713bc35c948636 ""
+  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW5.tex" 1647651113 14022 27fda1967e0a85ad0f80820fe52d966a ""
   "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/MysteryImage.png" 1647646647 13259 b803b466dab15892d51e3e8be9e6c030 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -123,14 +123,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1644538238 5160710 ecf427ae8fa19139d8691f526e47bb9b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1644538263 2569623 2ad934774020c84894e8c9bb6f18a5ab ""
-  "HW5.aux" 1647650040 3566 086d7af06036915700713bc35c948636 "pdflatex"
+  "HW5.aux" 1647651114 3566 086d7af06036915700713bc35c948636 "pdflatex"
   "HW5.bbl" 1647650039 1270 a2c44b604022a2866a4c3995c162e0ed "bibtex HW5"
-  "HW5.out" 1647650040 419 9e75dd77af5262b81fc76ee4eb0c72b2 "pdflatex"
-  "HW5.tex" 1647650037 14021 fe0aa25f3a522801bffd206515374cf8 ""
+  "HW5.out" 1647651114 419 9e75dd77af5262b81fc76ee4eb0c72b2 "pdflatex"
+  "HW5.tex" 1647651113 14022 27fda1967e0a85ad0f80820fe52d966a ""
   (generated)
-  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW5.pdf"
-  "HW5.pdf"
-  "HW5.out"
   "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW5.log"
-  "HW5.log"
+  "HW5.pdf"
   "HW5.aux"
+  "HW5.log"
+  "/home/sathvikc/AMATH-482-2/AMATH-482/Homework Assignments/Homework 5/Latex Docs/HW5.pdf"
+  "HW5.out"
