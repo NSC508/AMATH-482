@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{diamond2016cvxpy}
+S.~Diamond and S.~Boyd.
+\newblock {CVXPY}: {A} {P}ython-embedded modeling language for convex
+  optimization.
+\newblock {\em Journal of Machine Learning Research}, 17(83):1--5, 2016.
+
+\bibitem{harris2020array}
+C.~R. Harris, K.~J. Millman, S.~J. van~der Walt, R.~Gommers, P.~Virtanen,
+  D.~Cournapeau, E.~Wieser, J.~Taylor, S.~Berg, N.~J. Smith, R.~Kern, M.~Picus,
+  S.~Hoyer, M.~H. van Kerkwijk, M.~Brett, A.~Haldane, J.~F. del R{\'{i}}o,
+  M.~Wiebe, P.~Peterson, P.~G{\'{e}}rard-Marchant, K.~Sheppard, T.~Reddy,
+  W.~Weckesser, H.~Abbasi, C.~Gohlke, and T.~E. Oliphant.
+\newblock Array programming with {NumPy}.
+\newblock {\em Nature}, 585(7825):357--362, Sept. 2020.
+
+\bibitem{Hunter:2007}
+J.~D. Hunter.
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing in Science \& Engineering}, 9(3):90--95, 2007.
+
+\bibitem{scikit-learn}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
+  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research}, 12:2825--2830, 2011.
+
+\end{thebibliography}
